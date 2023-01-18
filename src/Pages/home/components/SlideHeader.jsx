@@ -3,10 +3,10 @@ import { Carousel } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
 const SlideHeader = (props) => {
-  const slide1 = props?.movies?.[4];
-  const slide2 = props?.movies?.[5];
-  const slide3 = props?.movies?.[6];
-  const slide4 = props?.movies?.[7];
+  const slide1 = props?.movies?.[8];
+  const slide2 = props?.movies?.[9];
+  const slide3 = props?.movies?.[10];
+  const slide4 = props?.movies?.[11];
   const navigate = useNavigate();
 
   return (
