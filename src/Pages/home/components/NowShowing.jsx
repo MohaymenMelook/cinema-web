@@ -2,7 +2,7 @@ import { Button, Row, Col, Card } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
 function GridExample(props) {
-  const nowHome = props.movies?.slice(0, 4);
+  const nowHome = props.movies?.slice(5, 9);
   const navigate = useNavigate();
 
   return (
