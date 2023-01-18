@@ -3,7 +3,7 @@ import { Row, Col, Card, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
 const Coming = (props) => {
-  const soonHome = props.movies?.slice(20, 24);
+  const soonHome = props.movies?.slice(16, 20);
   const navigate = useNavigate();
 
   return (
